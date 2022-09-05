@@ -1,0 +1,26 @@
+{
+  "name": "filem",
+  "version": "1.0.0",
+  "description": "bash script is hard for learn so we are cli commands to make easy delete copy move files with simple cli commands",
+  "main": "build/filem.js",
+  "bin": {
+    "filem": "build/filem.js"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node ./build/filem.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsc && node ./build/filem.js"
+  },
+  "keywords": [
+    "filem"
+  ],
+  "author": "pyropecs",
+  "license": "ISC",
+  "dependencies": {
+    "@types/inquirer": "^9.0.1",
+    "chalk": "^5.0.1",
+    "commander": "^9.4.0",
+    "inquirer": "^9.1.1"
+  }
+}
